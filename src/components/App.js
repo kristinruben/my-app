@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import CardsPage from './components/Cards/CardsPage';
 
 import './App.css';
 

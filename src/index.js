@@ -1,31 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './stylesheets/index.css';
+import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+import todoApp from './reducers'
+import App from './components/App'
+import './stylesheets/index.css'
 
-import App from './components/App';
-import Box from './components/Box';
-import TwitterFeed from './components/TwitterFeed'
-import data from './constants/data'
+let store = createStore(todoApp)
 
-import registerServiceWorker from './registerServiceWorker';
-
-let wrapperParagraph = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed \
-  ullamcorper nibh, id efficitur eros. Suspendisse ultricies est ut mi \
-  volutpat, quis faucibus sem malesuada. Pellentesque pellentesque ex at \
-  posuere viverra. Nunc maximus massa nec lectus malesuada sodales. Lorem \
-  ipsum dolor sit amet, consectetur adipiscing elit. Cras eget malesuada \
-  tortor.'
-
-ReactDOM.render(
-  <div>
+render(
+  <Provider store={store}>
     <App />
-    <Box
-      boxClass='wrapper'
-      header='I Am the Wrapper'
-      paragraph={wrapperParagraph}
-    />
-  </div>,
+  </Provider>,
   document.getElementById('root')
-);
-
-registerServiceWorker();
+)

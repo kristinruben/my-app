@@ -1,46 +1,51 @@
 @import url('https://lineto.com/The+Fonts/Font+Categories/Text+Fonts/Circular/Book');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
 
 p {
   font-family: 'Circular';
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
   font-family: 'Circular';
   text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #f8f8f9;
+}
+
+h2 {
+  font-size: 3em;
 }
 
 li {
   font-family: 'Circular';
 }
 
-img {
-  max-width: 100%;
+input {
+  margin-right: 10px;
 }
 
 .box {
-  background-color: #729f98;
   border-radius: 0.8em;
   color: #f8f8f9;
   padding: 1em;
-  margin: 1em;
-  max-width: 667px;
+  margin: 3em;
+  width: 50%;
+}
+
+button {
+  font-family: 'Circular';
+  font-size: 12px;
+  background-color: #1D2951;
+  color: #f8f8f9;
+  border: none;
 }
 
 .list {
-  background-color: #ed1a7b;
-}
-
-.numbers {
-  background-color: #84ce15;
-}
-
-.picture {
-  background-color: #37becc;
-}
-
-.wrapper {
-  background-color: #729f98;
-  color: #000;
+  background-color: #f8f8f9;
+  color: #1D2951;
 }
 
 body {

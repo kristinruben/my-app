@@ -1,0 +1,54 @@
+@import url('https://lineto.com/The+Fonts/Font+Categories/Text+Fonts/Circular/Book');
+
+body {
+  margin: auto;
+  background-image: url('https://images.unsplash.com/photo-1466027397211-20d0f2449a3f?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=annie-spratt-102804.jpg&s=d5bc2cb84e5764f118388d6930f9eb75');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  align-content: center;
+}
+
+p {
+  font-family: 'Circular';
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Circular';
+  text-align: center;
+}
+
+li {
+  font-family: 'Circular';
+}
+
+img {
+  max-width: 100%;
+}
+
+.box {
+  background-color: #777777;
+  border-radius: 0.8em;
+  color: #f8f8f9;
+  padding: 1em;
+  margin: 1em;
+  max-width: 667px;
+}
+
+.list {
+  background-color: #ed1a7b;
+}
+
+.numbers {
+  background-color: #84ce15;
+}
+
+.picture {
+  background-color: #37becc;
+}
+
+.wrapper {
+  background-color: #e5f3f4;
+  color: #1c2224;
+}

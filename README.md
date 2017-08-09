@@ -1,7 +1,6 @@
 # PatternPortfolio
 
-[put a gif here]
-![](https://giphy.com/embed/O8kds7nL7FaSY)
+![](https://media.giphy.com/media/jItCZmN1Hgty/giphy.gif)
 
 
 ## Resources

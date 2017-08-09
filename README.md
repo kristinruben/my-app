@@ -1,5 +1,8 @@
 # PatternPortfolio
 
+[put a gif here]
+
+
 ## Credits
 * This project was bootstrapped with
 [Create React App](https://github.com/facebookincubator/create-react-app).
@@ -8,6 +11,7 @@
 
 ## Dependencies
 * `react 15.6.1`
+* `react-dom 15.6.1`
 * `redux 3.7.2`
 * `react-redux 5.0.5`
 * `react-scripts 1.0.10`

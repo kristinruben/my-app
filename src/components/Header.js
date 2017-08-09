@@ -7,11 +7,11 @@ class Header extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1>Welcome to MediaMetrics</h1>
+          <h1>PatternPortfolio</h1>
         </div>
       </div>
     );
   }
 }
 
-export default Header;
+export default Header

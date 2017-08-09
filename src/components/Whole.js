@@ -1,21 +1,33 @@
 import React from 'react'
-import AddTodo from '../containers/AddTodo'
-import VisibleTodoList from '../containers/VisibleTodoList'
-import Footer from './Footer'
+import AddPattern from '../containers/AddPattern'
+import PatternList from './PatternList'
 
+import PropTypes from 'prop-types'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
 
-const Whole = props => {
-  let boxClass = `box`
+import * as PatternActions from '../actions'
 
-  return (
-    <div className={boxClass}>
-      <div className='box list'>
-      <AddTodo />
-      </div>
-      <VisibleTodoList />
-      <Footer />
+const Whole = ({patterns, actions}) => (
+  <div>
+    <div className='box list'>
+      <AddPattern className='box list row columns small-10 medium-8 large-4' />
     </div>
-  )
-}
+    <div>
+      <PatternList patterns={patterns} actions={actions} />
+    </div>
+  </div>
+)
 
-export default Whole;
+const mapStateToProps = state => ({
+  patterns: state.patterns
+})
+
+const mapDispatchToProps = dispatch => ({
+  actions: bindActionCreators(PatternActions, dispatch)
+})
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Whole)

@@ -1,6 +1,7 @@
 # PatternPortfolio
 
 [put a gif here]
+![](https://giphy.com/embed/O8kds7nL7FaSY)
 
 
 ## Resources

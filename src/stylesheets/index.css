@@ -19,32 +19,13 @@ h1, h2 {
   font-weight: bold;
 }
 
-a {
-  color: #f8f8f9;
-  background-color: #1D2951;
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: #ffb6c1;
-  color: #f8f8f9;
-}
-
-form {
-  align-self: flex-start;
-}
-
 h1 {
   font-size: 3em;
-  color: #1D2951;
+  color: #f8f8f9;
 }
 
 h2 {
   font-size: 3em;
-}
-
-li {
-  font-family: 'Circular';
 }
 
 .box {

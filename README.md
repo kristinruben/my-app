@@ -3,18 +3,21 @@
 [put a gif here]
 
 
-## Credits
+## Resources
 * This project was bootstrapped with
 [Create React App](https://github.com/facebookincubator/create-react-app).
-* Inspiration comes from the best social media site out there
-(in terms of app sophistication!), [Ravelry](http://www.ravelry.com).
+* [TodoMVC with Redux](https://github.com/reactjs/redux/tree/master/examples/todomvc)
+* Dan Abramov's [Getting Started With Redux](https://egghead.io/courses/getting-started-with-redux) on Egghead
+* [React docs](https://facebook.github.io/react/docs/hello-world.html)
+* [Redux site](http://redux.js.org/)
+
 
 ## Dependencies
 * `react 15.6.1`
 * `react-dom 15.6.1`
 * `redux 3.7.2`
 * `react-redux 5.0.5`
-* `react-scripts 1.0.10`
+* `react-test-renderer 15.6.1`
 
 ## Installation
 1. Clone the repo, `cd` into `my-app`, and run `npm install`.

@@ -2,6 +2,8 @@
 
 ![](https://media.giphy.com/media/jItCZmN1Hgty/giphy.gif)
 
+This is a simple list app, built in React/Redux.
+
 ## Dependencies
 * `react 15.6.1`
 * `react-dom 15.6.1`

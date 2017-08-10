@@ -1,11 +1,11 @@
-@import url('https://lineto.com/The+Fonts/Font+Categories/Text+Fonts/Circular/Book');
+@import url('https://lineto.com/The+Fonts/Font+Categories/Text+Fonts/Arial/Book');
 
 p {
-  font-family: 'Circular';
+  font-family: 'Arial';
 }
 
 input {
-  font-family: 'Circular';
+  font-family: 'Arial';
   margin-right: 10px;
 }
 
@@ -15,7 +15,7 @@ p::selection {
 }
 
 h1, h2 {
-  font-family: 'Circular';
+  font-family: 'Arial';
   font-weight: bold;
 }
 
@@ -36,7 +36,7 @@ h2 {
 }
 
 button {
-  font-family: 'Circular';
+  font-family: 'Arial';
   font-size: 16px;
   color: #1D2951;
   border: 4px;

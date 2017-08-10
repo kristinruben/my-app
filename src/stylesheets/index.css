@@ -46,6 +46,12 @@ button {
 .list {
   background-color: #f8f8f9;
   color: #1D2951;
+  padding: 1em;
+  margin: 3em;
+}
+
+.row {
+  margin: 3em;
 }
 
 body {

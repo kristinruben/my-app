@@ -22,7 +22,7 @@ export default class Pattern extends Component {
     )
 
     return (
-      <div className='box list columns small-10 medium-8 large-8'>
+      <div className='box list row columns small-10 medium-10 large-10 left'>
         {element}
       </div>
     )

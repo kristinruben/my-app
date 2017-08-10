@@ -8,8 +8,8 @@ import * as PatternActions from '../actions'
 
 const Whole = ({patterns, actions}) => (
   <div>
-    <div className='box list'>
-      <AddPattern className='box list row columns small-10 medium-8 large-4' />
+    <div className='columns box list row center small-10 medium-8 large-8'>
+      <AddPattern className='center' />
     </div>
     <div>
       <PatternList patterns={patterns} actions={actions} />

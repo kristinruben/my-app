@@ -23,3 +23,4 @@
 * [Redux site](http://redux.js.org/)
 * [Q&A About Redux](http://www.punch.cool/community/questions-answers/engineering/redux/)
 * [Essential React Questions](https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions)
+* Contrast with Vue.js: [Vue.js Twitter mockup](https://jsfiddle.net/kruben/edwdqaeo/)

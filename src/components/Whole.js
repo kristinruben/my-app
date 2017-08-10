@@ -1,11 +1,9 @@
 import React from 'react'
 import AddPattern from '../containers/AddPattern'
 import PatternList from './PatternList'
-
 import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-
 import * as PatternActions from '../actions'
 
 const Whole = ({patterns, actions}) => (
